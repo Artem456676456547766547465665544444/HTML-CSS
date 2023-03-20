@@ -1,17 +1,21 @@
-li {
-    margin-bottom: 16px;
+i {
+  margin-bottom: 16px;
 }
-  li:nth-child(1) > span {
-    background-color: red;
-    color: white;
+
+li:last-child > span {
+  background-color: black;
+  color: white;
 }
-li:nth-child(6) > span {
-    background-color: black;
-    color: white;
+
+li:first-child > span {
+  background-color: red;
+  color: white;
 }
+
 li:nth-child(even) > span {
-    margin-left: 16px;
+  margin-left: 16px;
 }
-.paragraphs:nth-child(odd) > p {
-    background-color: grey;
+
+div > p:nth-of-type(odd) {
+  background-color: grey;
 }
