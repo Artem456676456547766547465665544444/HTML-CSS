@@ -23,3 +23,6 @@ a:hover {
 .confirm-checkbox:checked {
     margin-left: 20px;
 }
+.some-button:disabled {
+    border: 3px dashed grey;
+}
