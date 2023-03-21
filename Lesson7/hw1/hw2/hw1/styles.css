@@ -1,16 +1,15 @@
-[type="checkbox"]:checked {
-    margin-left: 50px;
+input[type='checkbox'][checked] { 
+     margin-left: 50px;
 }
- label {
+label {  
     text-transform: uppercase;
 }
-#special::first-letter {
-  font-size: 100px;
-  color:green;
+#special::first-letter {  
+    color: green;  font-size: 100px;
 }
-h1:active {
-    color:green;
+h1:hover {  
+    color: blue;
 }
-a:visited {
-    color: gray;
+a:visited {  
+    color: grey;
 }
