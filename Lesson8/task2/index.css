@@ -1,15 +1,12 @@
 div {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    margin-right: 100px;
-    padding: 20;
-    border-top: 10px solid firebrick;
-    border-bottom: 10px dashed burlywood;
-    border-right: 20px solid chartreuse;
-    border-left: 20px dashed aqua;
+   
+    margin: 50px 100px 50px 100px;
+    border-width: 10px 20px 10px 20px;
+    border-style: solid solid dashed dashed;
+    padding: 20px;
+    border-color: firebrick chartreuse burlywood aqua;
     width: 420px;
-    height: 170px;
+    height: 140px;
     font-size: 24px;
     background-color: bisque;
     
