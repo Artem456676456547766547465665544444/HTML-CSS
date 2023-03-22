@@ -35,7 +35,7 @@ input[type="text"] {
     background-color: yellow;
 }
 .div .p {
-    border: 5px solid red;
+    border: 5px solid white;
 }
 .div p > em {
     font-size: 20px;
