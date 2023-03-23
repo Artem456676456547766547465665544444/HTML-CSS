@@ -12,14 +12,17 @@
     background-color:blue;
 }
 .v {
+    margin: 50px;
     border: 2px solid black;
     background-color: yellow;
 }
 .g {
+    margin: 50px;
     border: 2px solid black;
     background-color: green;
 }
 .d {
+    margin: 50px;
     border: 2px solid black;
     background-color: pink;
 }
