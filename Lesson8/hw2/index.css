@@ -1,13 +1,12 @@
 
-.a {
+.forall {
     padding: 50px;
-    margin:50px;
+    
    
     
 }
 .first {
-   margin-top: 50px;
-   margin-left: 50px;
+    margin: 50px;
     border: 2px solid black;
     background-color:blue;
 }
