@@ -5,23 +5,23 @@
     height: 200px;
     width: 200px;
 }
-.blockred {
+.block_red {
     background-color: red;
     float: left;
 }
-.blockgreen {
+.block_green {
     background-color: green;
      float: left;
 }
-.blockblue {
+.block_blue {
     background-color: blue;
      float: left;
 }
-.blockyellow {
+.block_yellow {
     background-color: yellow;
      float: left;
 }
-.blockblack {
+.block_black {
     background-color: black;
      float: left;
 }
