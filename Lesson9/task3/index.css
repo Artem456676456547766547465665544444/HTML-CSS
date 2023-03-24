@@ -1,27 +1,30 @@
+* {
+    box-sizing: border-box;
+}
 .forall {
     height: 200px;
     width: 200px;
 }
-.block-red {
+.blockred {
     background-color: red;
     float: left;
 }
-.block-green {
+.blockgreen {
     background-color: green;
      float: left;
 }
-.block-blue {
+.blockblue {
     background-color: blue;
      float: left;
 }
-.block-yellow {
+.blockyellow {
     background-color: yellow;
      float: left;
 }
-.block-black {
+.blockblack {
     background-color: black;
      float: left;
 }
 body {
-    margin: 0;
+    margin: 0px;
 }
