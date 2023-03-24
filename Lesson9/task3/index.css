@@ -4,6 +4,8 @@
 .forall {
     height: 200px;
     width: 200px;
+    position: relative;
+    left: 0px;
 }
 .block_red {
     background-color: red;
