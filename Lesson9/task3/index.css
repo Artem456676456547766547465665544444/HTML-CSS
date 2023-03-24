@@ -2,23 +2,26 @@
     height: 200px;
     width: 200px;
 }
-.block1 {
+.block-red {
     background-color: red;
     float: left;
 }
-.block2 {
+.block-green {
     background-color: green;
      float: left;
 }
-.block3 {
+.block-blue {
     background-color: blue;
      float: left;
 }
-.block4 {
+.block-yellow {
     background-color: yellow;
      float: left;
 }
-.block5 {
+.block-black {
     background-color: black;
      float: left;
+}
+body {
+    margin: 0;
 }
