@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .static-perent {
     position: static;
 }
@@ -5,6 +8,7 @@
     position: relative;
     bottom: 20px;
     right: 100px;
+    background-color: aqua;
 }
 .absolute-parent {
     position: absolute;
