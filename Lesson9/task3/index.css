@@ -1,9 +1,6 @@
-* {
-    box-sizing: border-box;
-}
 .forall {
     height: 200px;
-    width: 200px;
+    width: 20%;
     position: relative;
     left: 0px;
 }
