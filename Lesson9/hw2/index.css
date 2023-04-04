@@ -13,29 +13,27 @@
     z-index: 1;
     height: 40px;
     
-    
-    
     background-color: darkturquoise;
 }
 
 .nav-list {
+    height: 40px;
     list-style-type: none;
 }
 
 nav {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    height: 100%;
-    margin-left: 16px;
+    margin-left: 32px;
 }
 
 nav > .nav-list > li {
     /* margin: mt, mr, mb, ml */
     /* padding: 10px;  */
     /* padding: 0 0 0 20px */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     float: left;
+    height: 100%;
     margin-left: 16px;
     /* padding-left: 20px; */
     color: white;
