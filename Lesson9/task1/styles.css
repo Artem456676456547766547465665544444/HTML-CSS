@@ -18,3 +18,20 @@
   bottom: 20px;
   left: 30px;
 }
+.tip  {
+    
+   background-color: white;
+   
+}
+.child, .parent {
+    border: 2px solid black;
+    padding: 16px;
+}
+.parent {
+    width: 300px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+.child {
+    background-color: yellow;
+}
