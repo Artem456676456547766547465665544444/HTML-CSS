@@ -1,74 +1,20 @@
-* {
-    box-sizing: border-box;
-}
-.tip, .tip1, .tip2, .tip3, .tip4 {
-    
-   background-color: white;
-   position: absolute;
-}
-
-
-.child, .parent {
-    border: 2px solid black;
-    padding: 16px;
-}
-.parent {
-    width: 300px;
-    height: 100px;
-    background-color: yellowgreen;
-}
-.child {
-    background-color: yellow;
-}
 .static-parent {
     position: static;
-
 }
-
-   .static-parent > .tip1 {
-   position: absolute;
-   
-}
-
-.static-parent > .child   {
-    position:absolute;
-    
-    
-}
- 
-
 .relative-parent {
-    position: relative;
-    top:20px;
-    right: 50px;
+  position: relative;
+  top: 20px;
+  left: 50px;
 }
-   .tip2  {
-    position: relative;
-     top: 20px;
-     left: 50px;
-    
-}
- 
-
 
 .absolute-parent {
-    bottom: 20px;
-    left: 50px;
-    position: absolute;
-}
-.tip3 {
-    position: absolute;
-    right: 20px;
-    left: 50px;
-}
-.fixed-parent {
-    position: fixed;
-    bottom: 20px;
-    left: 30px;
-}
-.tip4 {
-    position: fixed;
-    bottom: 20px;
-    left: 30px;
+  position: absolute;
+  bottom: 20px;
+  right: 50px;
 }
 
+.fixed-parent {
+  position: fixed;
+  bottom: 20px;
+  left: 30px;
+}
