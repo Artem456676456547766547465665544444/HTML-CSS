@@ -1,0 +1,10 @@
+.block {
+    height: 100px;
+    width: 100px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+body {
+    display: flex;
+    flex-direction: wrap;
+}
