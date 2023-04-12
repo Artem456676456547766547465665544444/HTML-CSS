@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     box-sizing: border-box;
+    padding: 0px;
 }
 header {
     display: flex;
@@ -10,7 +11,7 @@ header {
     
 }
 nav {
-    margin-left: -16px;
+    margin-left: 16px;
     display: flex;
     
     list-style-type: none;
@@ -51,8 +52,10 @@ div {
     height: 100vh;
 }
 aside {
+   
     width: 200px;
     background-color: gray;
+    
 }
 section {
     display: flex;
@@ -61,14 +64,17 @@ section {
     justify-content: center;
     align-items: center;
 }
-.li2 {
-    margin-bottom: 16px;
-    margin-left: -16px;
+aside > ul {
+    height: 40px;
+    
     list-style-type: none;
+    
 }
-h2 {
-    display: flex;
+.h1 {
+    display: flex; 
     justify-content: center;
-    align-items: center;
+    margin: 16px;
+}
+.li2 {
     margin: 16px;
 }
