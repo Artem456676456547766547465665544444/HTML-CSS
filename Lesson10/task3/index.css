@@ -5,7 +5,7 @@
 }
 header {
     display: flex;
-    height: 40px;
+   
     background-color: yellow;
     align-items: center;
     
@@ -24,7 +24,7 @@ nav {
     display: flex;
     align-items: center;
    
-    
+     
     list-style-type: none;
 
 }
@@ -35,7 +35,7 @@ nav {
 }
 
 footer {
-    
+     
     background-color: green;
     display: flex;
 }
@@ -43,6 +43,7 @@ span {
     display: flex;
     margin: auto;
     height: 40px;
+    align-items: center;
 }
 main {
     flex-grow: 1;
@@ -81,4 +82,7 @@ aside > ul {
 .li2 {
     margin-left: 16px;
     line-height: 40px;
+}
+.h3 {
+    height: 40px;
 }
