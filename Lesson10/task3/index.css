@@ -11,35 +11,38 @@ header {
     
 }
 nav {
-    margin-left: 16px;
+  
     display: flex;
-    
+    height: 40px;
     list-style-type: none;
     
 }
+
+
 
 .ul1 {
-    list-style-type: none;
     display: flex;
-}
-
-.li1 {
-    margin-right: 10px;
-    
-    
+    align-items: center;
+   
     
     list-style-type: none;
 
+}
+.li1 {
+  
+     margin-left: 16px;
+    
 }
 
 footer {
-    height: 40px;
+    
     background-color: green;
     display: flex;
 }
 span {
     display: flex;
     margin: auto;
+    height: 40px;
 }
 main {
     flex-grow: 1;
@@ -76,5 +79,6 @@ aside > ul {
     margin: 16px;
 }
 .li2 {
-    margin: 16px;
+    margin-left: 16px;
+    line-height: 40px;
 }
