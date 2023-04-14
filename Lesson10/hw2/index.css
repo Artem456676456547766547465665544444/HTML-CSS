@@ -2,9 +2,10 @@
     margin: 8px;
     padding: 16px;
     background-color: bisque;
-    flex-grow:0 ;
+    flex-grow:1 ;
     flex-shrink: 0;
     flex-basis: 300px;
+    
 
 }
 .articles-list {
