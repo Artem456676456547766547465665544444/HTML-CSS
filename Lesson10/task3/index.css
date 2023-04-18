@@ -1,8 +1,7 @@
 * {
-   margin: 0;
-  
+    margin: 0;
     box-sizing: border-box;
- 
+    padding: 0;
    
 }
 header {
@@ -10,8 +9,7 @@ header {
     background-color: yellow;
     height: 40px;
     align-items: center;
-    margin: 0;
-  padding: 0;
+    
 }
  nav {
     display: flex;
@@ -23,8 +21,6 @@ header {
     display: flex;
     list-style-type: none;
     
-  margin: 0;
-  padding: 0;
 }
 .li1 {
     margin-left: 16px;
@@ -70,10 +66,4 @@ footer {
 }
 span {
     margin: auto;
-}
-.h3 {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    
 }
