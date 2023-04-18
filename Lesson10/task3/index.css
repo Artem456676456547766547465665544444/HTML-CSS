@@ -1,7 +1,10 @@
 * {
+	box-sizing: border-box;
+}
+
+ul {
 	margin: 0;
 	padding: 0;
-	box-sizing: border-box;
 }
 
 .page {
@@ -19,8 +22,7 @@
 
 .nav-list {
   display: flex;
-  margin: 0;
-  padding: 0;
+	margin: 0;
 }
 
 li {
@@ -47,11 +49,6 @@ li {
 .sidebar {
   width: 200px;
   background: grey;
-}
-
-.news {
-  margin: 0;
-  padding: 0;
 }
 
 .news-header {
