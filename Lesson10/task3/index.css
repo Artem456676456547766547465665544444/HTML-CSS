@@ -23,6 +23,7 @@ ul {
 .nav-list {
   display: flex;
 	margin: 0;
+	padding: 0;
 }
 
 li {
@@ -53,12 +54,13 @@ li {
 
 .news-header {
   text-align: center;
-  margin: 16px 0;
+  margin-top: 16px;
+	margin-bottom: 16px;
 }
 
 .news-item {
   line-height: 40px;
-  margin-left: 16px;
+  padding-left: 16px;
 }
 
 .footer {
