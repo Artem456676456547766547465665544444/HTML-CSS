@@ -1,11 +1,10 @@
 * {
     box-sizing: border-box;
 }
-
-.dropdown {
-    position: relative;
-    margin: 16px;
+.dropdown { 
     
+    margin: 16px;
+
 }
 .menu-button {
     position: absolute;
@@ -14,7 +13,7 @@
     opacity: 0.8;
     font-size: 16px;
     color: white;
-    display: inline-block;
+    display: block;
     cursor: pointer;
 }
 
@@ -30,6 +29,10 @@
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     min-width: 120px;
     z-index: 1;
+    top:65px
+}
+.menu-button:hover {
+    opacity: 1;
 }
 .menu-item:hover {
     background-color: ghostwhite;
@@ -43,5 +46,5 @@
     display:block ;
 }
 .menu-item {
-  padding: 16px;
+    padding: 16px;
 }
