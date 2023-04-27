@@ -2,23 +2,21 @@
     box-sizing: border-box;
 }
 .dropdown { 
-    
     margin: 16px;
-
 }
 .menu-button {
-    position: absolute;
+   
     padding: 16px;
     background-color: darkgreen;
     opacity: 0.8;
     font-size: 16px;
     color: white;
-    display: block;
+    display: inline-block;
     cursor: pointer;
 }
 
 .menu-list {
-    position: absolute;
+   
     display: none;
     
     list-style-type: none;
@@ -29,7 +27,7 @@
     box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
     min-width: 120px;
     z-index: 1;
-    top:67px
+    
 }
 .menu-button:hover {
     opacity: 1;
