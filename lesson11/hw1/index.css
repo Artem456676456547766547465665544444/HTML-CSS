@@ -3,22 +3,24 @@
 }
 
 .text {
-
+ 
     display: flex;
     flex-direction: column;
     margin: 16px;
-    text-decoration-style: 1px  dotted black;
-    bottom: -40px;
+   border-bottom: 1px  dotted black;
+   
     display: inline-block;
 }
 .tooltip {
-    
+   position: relative;
+   
    background-color: gray;
    color: white;
    border-radius: 4px;
    padding: 8px;
    display: block;
    bottom: -40px;
+   
 }
 
     
