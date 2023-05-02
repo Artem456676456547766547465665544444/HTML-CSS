@@ -1,26 +1,30 @@
 * {
     box-sizing: border-box;
 }
+ 
 
 .text {
  
-    display: flex;
-    flex-direction: column;
+    position: relative;
     margin: 16px;
-   border-bottom: 1px  dotted black;
-   
+    border-bottom: 1px  dotted black;
     display: inline-block;
 }
 .tooltip {
-   position: relative;
+   position: absolute;
+   bottom: -40px;
    
    background-color: gray;
    color: white;
    border-radius: 4px;
    padding: 8px;
-   display: block;
-   bottom: -40px;
+   display: none;
+  
    
+}
+.text:hover .tooltip {
+    display: block;
+
 }
 
     
