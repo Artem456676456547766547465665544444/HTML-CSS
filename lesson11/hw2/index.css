@@ -1,3 +1,6 @@
+* {
+   box-sizing: border-box;
+}
 img {
   
  
@@ -8,4 +11,5 @@ img {
     display: flex;
     cursor: all-scroll;
     overflow:auto;
+    margin: 0;
 }
