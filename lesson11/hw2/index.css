@@ -4,12 +4,12 @@
 img {
   
  
-    padding: 8px;
+    margin: 8px;
     
 }
 .gallery {
     display: flex;
     cursor: all-scroll;
     overflow:auto;
-    margin: 0;
+   
 }
