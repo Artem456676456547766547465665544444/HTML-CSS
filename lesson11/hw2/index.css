@@ -1,11 +1,11 @@
 img {
-
+  
  
     padding: 8px;
     
 }
 .gallery {
- 
+    display: flex;
     cursor: all-scroll;
     overflow:auto;
 }
