@@ -2,10 +2,10 @@ img {
 
  
     padding: 8px;
-    overflow:auto;
+    
 }
 .gallery {
  
     cursor: all-scroll;
-    
+    overflow:auto;
 }
