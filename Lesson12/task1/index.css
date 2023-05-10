@@ -10,6 +10,8 @@ html {
     font-size: 18px;
 }
 h1 {
+    display: flex;
+    justify-content: center;
     text-transform: uppercase;
     word-spacing: 20px;
 }
