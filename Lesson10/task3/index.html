@@ -1,112 +1,35 @@
-<!DOCTYPE html> 
-<html lang="en"> 
-<head> 
-    <meta charset="UTF-8"> 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" /> 
-    <style> 
- 
-        * { 
-            box-sizing: border-box; 
-        } 
- 
-        .navigation { 
-            margin: 0; 
-            padding: 0; 
-            display: flex; 
-            list-style-type: none; 
-        } 
- 
-        .header { 
-            height: 40px; 
-            background-color: yellow; 
-            align-items: center; 
-            display: flex; 
-        } 
- 
-        .footer { 
-            height: 40px; 
-            background-color: green; 
-            display: flex; 
-        } 
- 
-        .navigation_item { 
-            padding-left: 16px; 
-        } 
- 
-        .footer_text { 
-            margin: auto; 
-        } 
- 
-        .page { 
-            display: flex; 
-            flex-direction: column; 
-            min-height: 100vh; 
-        } 
- 
-        .content { 
-            flex-grow: 1; 
-            display: flex; 
-        } 
- 
-        .dashboard { 
-            display: flex; 
-            flex-grow: 1; 
-            background-color: pink; 
-            align-items: center; 
-            justify-content: center; 
-        } 
- 
-        .news { 
-            width: 200px; 
-            background-color: grey; 
-        } 
- 
-        .news-1 { 
-            display: flex; 
-            justify-content: center; 
-            margin-top: 16px; 
-            margin-bottom: 16px; 
-        } 
- 
-        .news-2 { 
-            line-height: 40px; 
-            list-style-type: none; 
-        } 
- 
-        .news-3 { 
-            margin: 0; 
-            padding: 0; 
-            padding-left: 16px; 
-        } 
-    </style> 
-    <title>Layout</title> 
-</head> 
-<body> 
-    <div class="page"> 
-        <header class="header"> 
-                <ul class="navigation"> 
-                    <li class="navigation_item">About</li> 
-                    <li class="navigation_item">Products</li> 
-                    <li class="navigation_item">Contacts</li> 
-                </ul> 
-        </header> 
-        <main class="content"> 
-            <section class="dashboard"> 
-                <h2>I can use Flexbox!!!</h2> 
-            </section> 
-            <aside class="news"> 
-                <h2 class="news-1">News</h2> 
-                    <ul class="news-3"> 
-                        <li class="news-2">News 1</li> 
-                        <li class="news-2">News 2</li> 
-                        <li class="news-2">News 3</li> 
-                    </ul> 
-            </aside> 
-        </main> 
-        <footer class="footer"> 
-            <span class="footer_text">Footer</span> 
-        </footer> 
-    </div> 
-</body> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="page">
+    <header class="header">
+        <ul class="nav-list">
+            <li class="nav-item">About</li>
+            <li class="nav-item">Products</li>
+            <li class="nav-item">Contacts</li>
+        </ul>
+    </header>
+    <main class="content"> 
+        <section class="dashboard">
+            <h2>I can use Flexbox!!!</h2>
+        </section>
+        <aside class="sidebar">
+         <h2 class="news-header">News</h2>
+         <ul class="news">
+            <h2 class="news-item">News 1</h2>
+            <h2 class="news-item">News 2</h2>
+            <h2 class="news-item">News 3</h2>
+         </ul>
+        </aside>
+    </main>
+    <footer class="footer"><span class="footer-text">Footer</span></footer>
+</div>
+</body>
 </html>
