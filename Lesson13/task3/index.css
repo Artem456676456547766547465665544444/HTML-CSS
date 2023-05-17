@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+div{
+    text-align: center;
+    margin: 0px;
+    text-transform: uppercase;
+    font-size: 96px;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, #ff0, #f00);
+}  
