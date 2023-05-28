@@ -28,10 +28,10 @@ form {
     text-transform: uppercase;
 }
 .form-control{
-    margin-bottom: 8px;
+    margin-top: 8px;
 }
 .form-label {
-    margin-bottom:4px ;
+    margin-top:4px ;
 }
 .form-input {
     outline: none;
@@ -48,4 +48,5 @@ form {
     color: white;
     margin-top: 16px;
     border-radius: 4px;
+    text-transform: uppercase;
 }
