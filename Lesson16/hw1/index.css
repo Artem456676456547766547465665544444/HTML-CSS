@@ -27,13 +27,12 @@ form {
     text-align: center;
     text-transform: uppercase;
 }
-.form-control{
-    margin-top: 8px;
-}
+
 .form-label {
-    margin-bottom:4px ;
+    margin-top:4px ;
 }
 .form-input {
+    margin-bottom: 8px;
     outline: none;
     padding: 4px;
     width: 100%;
