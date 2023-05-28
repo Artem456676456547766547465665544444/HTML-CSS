@@ -31,13 +31,13 @@ form {
     margin-top: 8px;
 }
 .form-label {
-    margin-top:4px ;
+    margin-bottom:4px ;
 }
 .form-input {
     outline: none;
     padding: 4px;
     width: 100%;
-    hyphens: 32px;
+    height: 32px;
     border-radius: 4px;
     border: 1px solid #808080;
 }
