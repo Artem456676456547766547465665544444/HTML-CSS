@@ -13,8 +13,11 @@ div {
 }
 
 select {
-    display: inline-block;
+    display: block;
 }
 label {
   display: inline-block;
+}
+textarea {
+    display: inline-block;
 }
