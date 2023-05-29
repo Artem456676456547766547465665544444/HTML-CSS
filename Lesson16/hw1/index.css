@@ -27,10 +27,11 @@ form {
 }
 .form-label {
     margin-bottom:4px ;
+    display: block;
 }
 .form-control {
     margin-bottom: 8px;
-    display: block;
+   
 }
 .form-input {
     
