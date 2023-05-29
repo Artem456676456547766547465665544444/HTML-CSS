@@ -54,11 +54,11 @@
         <input type="password" name="password" value="secret">
         </div>
         <div>
-        <input type="radio" id="1" name="language" value="html">
+        <input class="language" type="radio" id="1" name="language" value="html">
         <label for="1">HTML</label>
-        <input type="radio" id="2" name="language" value="css">
+        <input class="language" type="radio" id="2" name="language" value="css" checked>
         <label for="2">CSS</label>
-        <input type="radio" id="3" name="language" value="javascript">
+        <input class="language" type="radio" id="3" name="language" value="javascript">
         <label for="3">JavaScript</label>
         </div>
         <div>
@@ -67,7 +67,7 @@
          <div>
             <select name="framework" >
                 <option value="react">React</option>
-                <option value="jquery" selected>Jquery</option>
+                <option value="jquery" selected>jQuery</option>
                 <option value="bootstrap">Bootstrap</option>
             </select>
          </div>
@@ -78,7 +78,7 @@
         <input type="time" name="luncEnd" value="14:01">
         </div>
         <div>
-        <input type="url" name="website" value="https://website.com" required>
+        <input type="url" name="website" placeholder="https://website.com" required>
          </div>
          <div>
             <input type="week" name="birthWeek" value="2021-W51">

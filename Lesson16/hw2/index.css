@@ -3,11 +3,16 @@
 }
 form {
     margin: 32px;
-    display: flex ;
-    flex-direction: column;
+    
    
     
 }
-input {
+
+div {
     margin: 8px;
+}
+
+
+label {
+  display: inline-block;
 }
