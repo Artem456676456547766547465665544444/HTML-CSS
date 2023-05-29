@@ -12,7 +12,9 @@ div {
     margin: 8px;
 }
 
-
+select {
+    display: inline-block;
+}
 label {
   display: inline-block;
 }
