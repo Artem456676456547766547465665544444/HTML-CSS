@@ -1,5 +1,13 @@
-main {
-    background-color: aqua;
-    height: auto;
-    width: auto;
+* {
+    box-sizing: border-box;
+}
+form {
+    margin: 32px;
+    display: flex ;
+    flex-direction: column;
+   
+    
+}
+input {
+    margin: 8px;
 }
