@@ -7,6 +7,7 @@ table {
     
 }
  td {
+
     border: 1px solid black;
 }
 table, td {
@@ -18,4 +19,5 @@ th {
 }
 th, td {
     text-align: right;
+    padding: 4px;
 }
