@@ -32,6 +32,7 @@ caption {
 thead {
     background-color: aqua;
     font-weight: 700;
+    margin-bottom: 8px;
 }
 tbody > tr:hover {
     background-color: #aaa;
