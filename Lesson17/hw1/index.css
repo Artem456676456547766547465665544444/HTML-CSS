@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+table {
+    margin: 16px;
+    border-collapse: collapse;
+    
+}
+td {
+    height: 50px;
+    width: 50px;
+}
+.balck:nth-child(even) {
+  background-color: black;
+}
+.balck1:nth-child(odd) {
+   background-color: black;
+}
+.balck, .balck1, .balck2, .balck3, .balck4, .balck5, .balck6, .balck7, table {
+    border: 1px solid black;
+}
+.black {
+   text-align: center;
+}
+.balck2:nth-child(even) {
+   background-color: black;
+}
+.balck3:nth-child(odd) {
+   background-color: black;
+}
+.balck4:nth-child(even) {
+   background-color: black;
+}
+.balck5:nth-child(odd) {
+   background-color: black;
+}
+.balck6:nth-child(even) {
+   background-color: black;
+}
+.balck7:nth-child(odd) {
+   background-color: black;
+}
+.center {
+    text-align: center;
+}
