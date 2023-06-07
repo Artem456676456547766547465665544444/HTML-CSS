@@ -21,6 +21,7 @@
    height: 32px;
    width: 32px;
    vertical-align: middle;
+   fill: white;
 }
 .button-with-icon:hover {
     color: darkcyan
