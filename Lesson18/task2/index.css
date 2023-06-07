@@ -1,0 +1,30 @@
+.knopka1 {
+    margin: 64px;
+    width: 200px;
+    height: 50px;
+    background-color: coral;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    cursor: pointer;
+}
+.knopka2 {
+    margin: 64px;
+    width: 200px;
+    height: 50px;
+   fill: white;
+}
+.large-bird {
+   height: 32px;
+   width: 32px;
+   vertical-align: middle;
+}
+.knopka1:hover {
+    color: darkcyan
+}
+.knopka1:hover >  .large-bird {
+  fill: green;
+}
