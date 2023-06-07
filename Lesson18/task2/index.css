@@ -1,4 +1,4 @@
-.knopka1 {
+.button-with-icon {
     margin: 64px;
     width: 200px;
     height: 50px;
@@ -17,14 +17,14 @@
     height: 50px;
    fill: white;
 }
-.large-bird {
+.bird-icon {
    height: 32px;
    width: 32px;
    vertical-align: middle;
 }
-.knopka1:hover {
+.button-with-icon:hover {
     color: darkcyan
 }
-.knopka1:hover >  .large-bird {
-  fill: green;
+.bird-icon:hover  {
+   fill: green;
 }
