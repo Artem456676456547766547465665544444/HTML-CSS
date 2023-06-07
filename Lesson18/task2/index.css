@@ -11,13 +11,9 @@
     font-weight: 700;
     cursor: pointer;
     text-align: center;
+    line-height: 50px;
 }
-.knopka2 {
-    margin: 64px;
-    width: 200px;
-    height: 50px;
-   fill: white;
-}
+
 .bird-icon {
    height: 32px;
    width: 32px;
