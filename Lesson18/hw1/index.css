@@ -9,19 +9,19 @@ i {
 }
 .fa-battery-three-quarters {
     font-size: 36px;
-    justify-content: space-around;
+    
 }
 .fa-battery-half {
     font-size: 64px;
-    justify-content: space-around;
+    
 }
 .fa-battery-quarter {
     font-size: 128px;
-    justify-content: space-around;
+    
 }
 .fa-battery-empty {
     font-size: 256px;
-    justify-content: space-around;
+    
 }
 div {
     display: flex;
