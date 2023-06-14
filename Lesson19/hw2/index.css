@@ -20,6 +20,11 @@ div {
     flex-direction: column;
     animation: ease 2s;
     animation-fill-mode: forwards;
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
     
 }
 @keyframes ease {
