@@ -12,6 +12,9 @@ html {
     color: white;
     background-image: linear-gradient(60deg,  #f00, orange);
     text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }  
 footer {
      display: flex;
@@ -20,6 +23,7 @@ footer {
      flex-direction: column;
      
      text-align: center;
+    
      
 }
 main {
@@ -42,7 +46,7 @@ main {
     color: white;
     line-height: 2em;
     margin-bottom: 0.5em;
-    margin: 0.5em;
+    
     overflow: hidden;
     white-space:nowrap ;
     text-overflow: ellipsis;
@@ -50,6 +54,7 @@ main {
 .nav-list-link {
     color: white;
     text-decoration: none;
+    padding: 0.5em;
 }
 .section {
     font-size: 1.25em;
@@ -74,7 +79,7 @@ aside {
 .section__header {
     display: flex; 
     
-    font-size: 5vh;
+    font-size: 5vw;
     text-align: center;
 
     justify-content: center;
