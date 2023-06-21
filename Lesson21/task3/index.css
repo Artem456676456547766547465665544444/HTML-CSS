@@ -18,14 +18,13 @@ html {
 }  
 main {
    display: flex;
-    height: 100vh;
+height: 100vh;
     
 }
 .navigation {
     width: 20%;
     list-style-type: none;
     padding: 0;
-   
 }
 .navigation, section, aside {
     padding: 0.5em;
@@ -40,7 +39,6 @@ main {
     line-height: 2em;
     margin-bottom: 0.5em;
     
-    margin-left: 0px;
     overflow: hidden;
     white-space:nowrap ;
     text-overflow: ellipsis;
@@ -59,7 +57,7 @@ main {
 .section__header {
     display: flex; 
     
-    font-size: 5vh;
+    font-size: 5vw;
     text-align: center;
 
     justify-content: center;
@@ -85,7 +83,5 @@ footer {
      flex-direction: column;
      
      text-align: center;
-    
-     
-}
 
+}
