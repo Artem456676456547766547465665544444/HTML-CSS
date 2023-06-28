@@ -21,11 +21,11 @@ body {
     height: 100px;
     width: 100px;
    margin: 8px;
-
+    orientation: landscape;
     background-color: #ff7f50;
     
 }
-@media screen and (min-width: 600px )  {
+@media screen and (min-width: 600px ) and (orientation: portrait)  {
     .square {
          background-color:  #8a2be2;
         
@@ -37,7 +37,7 @@ body {
 } 
 
 
-@media screen and (max-width: 600px )  {
+@media screen and (max-width: 600px )  and (orientation: portrait) {
   
     .container  {
         flex-direction: row;
