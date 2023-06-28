@@ -10,15 +10,13 @@ body {
     
    
 }
-.container {
-    
-   
-}
+
 
 .square {
     height: 100px;
     width: 100px;
     margin: 8px;
+     background-color: #ff7f50;
 }
 @media screen and (min-width: 600px ) and (orientation: landscape ) {
     .square {
@@ -28,8 +26,5 @@ body {
       
 } 
 @media screen and (max-width: 600px) and (orientation: portrait)  {
-    .square {
-        background-color: #ff7f50;
-        
-    }
+    
 }
