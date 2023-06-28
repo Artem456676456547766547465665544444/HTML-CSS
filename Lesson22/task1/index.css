@@ -12,7 +12,7 @@ body {
 }
 .container {
     display: flex;
-    flex-direction: column;
+   
     margin: 8px;
     
 }
@@ -22,26 +22,26 @@ body {
     height: 100px;
     width: 100px;
     margin: 8px;
-    orientation: landscape;
+
     background-color: #ff7f50;
     
 }
-@media screen and (max-width: 600px ) and (orientation: portrait)  {
+@media screen and (min-width: 600px )   {
     .square {
          background-color:  #8a2be2;
         
     }
     .container  {
-        flex-direction: row;
+        flex-direction: column;
     }
       
 } 
 
 
-@media screen and (max-width: 600px )  and (orientation: portrait) {
+@media screen and (max-width: 600px )   {
   
     .container  {
-        flex-direction: row;
+        flex-direction: column;
     }
       
 } 
