@@ -10,18 +10,25 @@ body {
     
    
 }
+.container {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .square {
     height: 100px;
     width: 100px;
     margin: 8px;
-     background-color: #ff7f50;
+    background-color: #ff7f50;
 }
 @media screen and (min-width: 600px ) and (orientation: landscape ) {
     .square {
          background-color:  #8a2be2;
         
+    }
+    .container  {
+        flex-direction: row;
     }
       
 } 
