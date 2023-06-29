@@ -17,9 +17,9 @@
 .block {
     display: flex;
     justify-content: center;
-      align-items: center;
-      min-height: 200px;
-       flex-grow: 1;
+    align-items: center;
+    min-height: 200px;
+    flex-grow: 1;
 }
 
 .text {
@@ -27,7 +27,7 @@
     background-color: #faebd7; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: lowercase;
-    padding: 8px;
+    margin: 8px;
     
     border-radius: 4px;
     
@@ -42,13 +42,14 @@
 @media screen  and (min-width: 600px) and (max-width:899px){
     section {
         display: flex;
-       
+       flex-grow: 1;
         
     }
 }
 @media screen and (min-width: 900px) {
-    section {
+    div {
         display: flex;
-        flex-grow: 3;
+     
+       
     }
 }
