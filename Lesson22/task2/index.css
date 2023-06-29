@@ -3,6 +3,7 @@
 }
 .navigation  {
     background-color: #f77f50;
+    flex-direction: column;
      
 }
 .products-list {
@@ -38,7 +39,7 @@ main {
     
 }
 @media screen and (max-width: 600px){
-    div {
+    section {
          flex-direction: column;
         
     }
@@ -52,7 +53,7 @@ main {
 }
 @media screen and (min-width: 900px) {
     main {
-        display: flex;
+       
          flex-direction: row;
        
     }
