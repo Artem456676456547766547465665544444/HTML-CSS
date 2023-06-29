@@ -46,25 +46,25 @@ main {
     .news {
         min-height: 200px;
     }
+    .items {
+    display: flex;
+  }
+  .products-list {
+    flex-basis: 50%;
+  }
+  .navigation {
+    flex-basis: 50%;
+  }
 }
+
 @media screen and (min-width: 900px) {
     main {
         display: flex;
-         flex-direction: row;
-         
+        flex-direction: row;
     }
     section {
         display: flex;
-        flex-grow: 3;
+        flex:2;
     }
-    .news {
-        flex:2 ;
-        min-height: 200px;
-    }
-    .products-list {
-        min-height: 200px;
-    }
-    .navigation {
-        min-height: 200px;
-    }
-}   
+}
+ 
