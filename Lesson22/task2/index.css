@@ -12,38 +12,59 @@
     background-color: #0ff;
 }
 .block {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 200px;
-    flex-grow: 1;
+  height: 200px;
+  display: flex;
+  flex: 1;
 }
 main {
     display: flex;
     flex-direction: column;
 }
 .text {
-    display: flex;
-    background-color: #faebd7; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-transform: lowercase;
-    padding: 8px;
-    border-radius: 4px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: auto;
+  padding: 8px;
+  background-color: #faebd7;
+  text-transform: lowercase;
+  border-radius: 4px;
 }
 @media screen and (max-width: 600px){
     section {
          flex-direction: column;
+    }
+    .news {
+        min-height: 200px;
     }
 }
 @media screen  and (min-width: 600px) and (max-width:899px){
     section {
         display: flex;
        flex-grow: 2;
+       
+      
+    }
+    .news {
+        min-height: 200px;
     }
 }
 @media screen and (min-width: 900px) {
     main {
+        display: flex;
          flex-direction: row;
          
     }
-}
+    section {
+        display: flex;
+        flex-grow: 3;
+    }
+    .news {
+        flex:2 ;
+        min-height: 200px;
+    }
+    .products-list {
+        min-height: 200px;
+    }
+    .navigation {
+        min-height: 200px;
+    }
+}   
