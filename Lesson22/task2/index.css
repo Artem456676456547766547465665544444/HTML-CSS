@@ -27,7 +27,7 @@
     background-color: #faebd7; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: lowercase;
-    margin: 8px;
+    padding: 8px;
     
     border-radius: 4px;
     
@@ -42,7 +42,7 @@
 @media screen  and (min-width: 600px) and (max-width:899px){
     section {
         display: flex;
-       flex-grow: 1;
+       flex-grow: 2;
         
     }
 }
