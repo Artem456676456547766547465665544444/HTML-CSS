@@ -4,16 +4,12 @@
 .navigation  {
     background-color: #f77f50;
     flex-direction: column;
-     
 }
 .products-list {
     background-color: #006400;
-     
 }
 .news {
     background-color: #0ff;
-    
-      
 }
 .block {
     display: flex;
@@ -24,37 +20,30 @@
 }
 main {
     display: flex;
-   
+    flex-direction: column;
 }
-
 .text {
     display: flex;
     background-color: #faebd7; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-transform: lowercase;
     padding: 8px;
-    
     border-radius: 4px;
-    
-    
 }
 @media screen and (max-width: 600px){
     section {
          flex-direction: column;
-        
     }
 }
 @media screen  and (min-width: 600px) and (max-width:899px){
     section {
         display: flex;
        flex-grow: 2;
-        
     }
 }
 @media screen and (min-width: 900px) {
     main {
-       
          flex-direction: row;
-       
+         
     }
 }
