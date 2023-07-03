@@ -11,9 +11,11 @@ html {
     background-color: #eee;
     padding-right: 1em;
     padding-left: 1em;
+    align-items: center;
+    
 }
 i {
-    height: 100%;
+    
     display: flex;
     justify-content: center;
     align-items: center;
