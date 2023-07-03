@@ -13,8 +13,10 @@ html {
     padding-left: 1em;
 }
 i {
+    height: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     font-size: 2em;
     padding: 0px;
     border: none;
@@ -51,7 +53,7 @@ i {
     }
 }
 @media  screen and (min-width: 600px) {
-    .header {
+     .fas {
         display:none ;
     }
 
