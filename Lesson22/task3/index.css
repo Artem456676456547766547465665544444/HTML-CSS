@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    height: 100vh;
+     margin: auto;
+}
+picture {
+        display: flex;
+    margin: auto;
+}
+img {
+
+    max-width: 100%;
+}
