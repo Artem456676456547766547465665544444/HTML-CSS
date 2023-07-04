@@ -26,11 +26,13 @@ i {
     cursor: pointer;
 }
 .navigation {
-    padding: 0px;
+
     width: 20%;
     padding: 0.5em;
-
+    margin: 0px;
+    padding: 0px;
 }
+
 .nav-list {
     margin: 0px;
     padding: 0px;
@@ -44,7 +46,9 @@ i {
     height: 2em;
     margin: 0.5em;
     color: white;
+    
 }
+
 .nav-list-link {
      color: white;
     height: 100%;
