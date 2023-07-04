@@ -28,9 +28,10 @@ i {
 .navigation {
 
     width: 20%;
-    padding: 0.5em;
+    
     margin: 0px;
     padding: 0px;
+    padding-top: 0.5em;
 }
 
 .nav-list {
