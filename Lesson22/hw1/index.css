@@ -14,6 +14,10 @@ html {
     align-items: center;
     
 }
+main {
+    display: flex;
+    
+}
 i {
     
     display: flex;
@@ -29,11 +33,12 @@ i {
     
     width: 20%;
     padding: 0.5em;
-
+    justify-content: center;
+    align-items: center;
+   
 }
 .nav-list {
     padding: 0px;
-    margin: 0px;
 }
 .nav-list-item {
    background-color: #808080;
@@ -41,16 +46,20 @@ i {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    height: 2em;
+    line-height: 2em;
     margin: 0.5em;
     color: white;
+     
+   
 }
 .nav-list-link {
+    display: flex;
      color: white;
     height: 100%;
     padding: 0.5em;
     text-decoration: none;
     
+   
 }
 @media screen  and (max-width:600px){
     .nav-list {
