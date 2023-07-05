@@ -33,12 +33,13 @@ i {
     margin: 0px;
     width: 20%;
     padding: 0.5em;
+    padding-left: 0px;
     justify-content: center;
     align-items: center;
    
 }
 .nav-list {
-    margin-left:0px;
+   
     padding: 0px;
 }
 .nav-list-item {
@@ -50,7 +51,7 @@ i {
     height: 2em;
     margin: 0.5em;
     color: white;
-     
+     padding: 0px;
    
 }
 .nav-list-link {
@@ -59,7 +60,7 @@ i {
     height: 100%;
     padding: 0.5em;
     text-decoration: none;
-    
+    margin: 0px;
    
 }
 @media screen  and (max-width:600px){
