@@ -105,6 +105,23 @@ img {
     * {
         display: flex;
         flex-direction: column;
-        max-width: 100%;
+        min-width: 100%;
+    }
+}
+@media screen and ( max-width:1200px) {
+    .section {
+        display: flex;
+        max-width:100%;
+        flex-direction: column;
+    }
+    nav {
+        width: 20%;
+        display: flex;
+        flex: 1;
+    }
+    aside {
+        display: flex;
+        max-width:100%;
+       flex-direction: column;
     }
 }
