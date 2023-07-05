@@ -30,7 +30,7 @@ i {
     cursor: pointer;
 }
 .navigation {
-    
+    margin: 0px;
     width: 20%;
     padding: 0.5em;
     justify-content: center;
@@ -38,6 +38,7 @@ i {
    
 }
 .nav-list {
+    margin-left:0px;
     padding: 0px;
 }
 .nav-list-item {
