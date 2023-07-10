@@ -1,0 +1,34 @@
+@import 'style';
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #ff7f50;
+    margin: 8px;
+   
+}
+.square {
+    @include function {
+       background-color: #8a2be2;
+    
+    }
+}
+.square {
+    @include bem {
+        background-color: #a61;
+    }
+}
+.square{
+    @include bim {
+        background-color: #c47;
+    }
+}
