@@ -1,9 +1,11 @@
-* {
-  box-sizing: border-box;
-}
 
-html {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: Top-level selectors may not contain the parent selector "&".\a    \2577 \a 14 \2502  &_item {\d\a    \2502  ^^^^^^\a    \2575 \a   Style\\header.scss 14:1  @import\a   Style\\index.scss 1:9    root stylesheet';
 }
-
-/*# sourceMappingURL=index.css.map */
