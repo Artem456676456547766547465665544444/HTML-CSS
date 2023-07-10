@@ -11,10 +11,11 @@ body {
 
 }
 .container {
-    display: flex;
+    
 }
+   
 .square {
-    display: flex;
+   display: flex;
     width: 100px;
     height: 100px;
     background-color: #ff7f50;
@@ -24,16 +25,24 @@ body {
 .square {
     @include function {
        background-color: #8a2be2;
-    
+        
+    }
+}
+.container {
+    @include function {
+       display: flex;
+        
     }
 }
 .square {
     @include bem {
         background-color: #a61;
+        display: flex;
     }
 }
 .square{
     @include bim {
+        display: flex;
         background-color: #c47;
     }
 }
