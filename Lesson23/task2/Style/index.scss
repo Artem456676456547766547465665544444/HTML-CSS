@@ -11,7 +11,8 @@ body {
 
 }
 .container {
-    
+   display: flex;
+   flex-direction: column;
 }
    
 .square {
@@ -22,22 +23,24 @@ body {
     margin: 8px;
    
 }
+
 .square {
     @include function {
        background-color: #8a2be2;
         
     }
+   
 }
 .container {
-    @include function {
-       display: flex;
-        
-    }
+  display: flex;
+  @include orient {
+    flex-direction: column;
+  }
 }
 .square {
     @include bem {
         background-color: #a61;
-        display: flex;
+        
     }
 }
 .square{

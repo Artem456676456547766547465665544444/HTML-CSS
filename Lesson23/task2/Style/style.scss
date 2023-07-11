@@ -16,3 +16,8 @@ $lg:1200px;
         @content;
     }
 }
+@mixin orient {
+  @media screen and (orientation: portrait) {
+    @content;
+  }
+}
