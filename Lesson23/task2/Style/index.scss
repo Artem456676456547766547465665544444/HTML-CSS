@@ -27,7 +27,7 @@ body {
 .square {
     @include function {
        background-color: #8a2be2;
-        
+        display: flex;
     }
    
 }
@@ -39,6 +39,7 @@ body {
 }
 .square {
     @include bem {
+        display: flex;
         background-color: #a61;
         
     }
