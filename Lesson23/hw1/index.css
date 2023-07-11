@@ -27,10 +27,9 @@ header {
 }
 .menu__item {
    
-     align-items: center;
-    display: flex;
+     
     margin: 0px;
-   padding: 8px;
+   padding-left: 8px;
 }
 .menu__item:hover {
     background-color: #9acd32;
@@ -51,6 +50,7 @@ header {
     overflow: hidden;
 }
 .submenu__item {
+    height: 48px;
     text-align: center;
     padding: 8px;
     list-style-type: none;
@@ -63,4 +63,11 @@ li {
 }
 .menu__item_active:hover .submenu {
     display: block;
+}
+.menu__item-text {
+    margin: 0px;
+}
+nav {
+    margin: 0px;
+    padding: 0px;
 }
