@@ -28,6 +28,7 @@ header {
   margin: 0;
   line-height: 3em;
   padding-left: 8px;
+  padding-right: 8px;
 }
 .menu__item:hover {
   background-color: #9acd32;
