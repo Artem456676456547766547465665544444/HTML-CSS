@@ -4,7 +4,8 @@
 body {
   display: flex;
   height: 100vh;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 .Main-item {
   display: flex;
@@ -117,9 +118,9 @@ body {
   align-items: center;
   width: 380px;
   height: 50px;
-  flex-shrink: 0;
-  background-color: #334247;
+  background-color: #33424780;
 }
+
 .list-text-second {
   width: 163px;
   height: 18px;
@@ -162,6 +163,7 @@ body {
   top: 115px;
   left: 530px;
   bottom: 0px;
+  overflow: hidden;
   background: #334247;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.09);
 }
@@ -181,27 +183,19 @@ body {
   height: 123px;
   bottom: 665.9px;
   left: 276px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  
 }
-.icon {
-  width: 75.758px;
-  transform: rotate(-45deg);
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 17.07px;
-  height: 17px;
-  position: absolute;
-  width: 25.013px;
-  height: 147.078px;
-  transform: rotate(-45deg);
-  fill: #dc3f45;
-  background: #dc3f45;
-}
+
 .icon-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 75.758px;
-  transform: rotate(-45deg);
   color: #fff;
   font-family: Montserrat;
   font-size: 14px;
@@ -209,9 +203,11 @@ body {
   font-weight: 700;
   line-height: 17.07px;
   height: 17px;
-  position: absolute;
-  margin-top: 27.713775634765625px;
-  margin-left: 40.09326171875px;
+  transform:rotate(45deg);
+  background-color: #DC3F45;
+  width: 147px;
+  height: 25px;
+   
 }
 .button-second {
   background-color: #3a6ba5;
@@ -228,6 +224,7 @@ body {
   top: 112px;
   bottom: 118px;
   background: #334247;
+  
 }
 .price-column-third {
   background: #ec632a;
