@@ -1,16 +1,14 @@
 * {
   box-sizing: border-box;
 }
-*{
-  font-family:Montserrat;
-}
+
 body {
   display: flex;
   height: 100vh;
   justify-content: center;
   align-items: center;
 }
-.Price-tables{
+.Main-item {
   display: flex;
   height: 100%;
   width: 100%;
@@ -19,7 +17,7 @@ body {
   background: #141b1c;
   position: relative;
   font-family: Montserrat;
- 
+  
 }
 .Main-item-container {
   display: flex;
