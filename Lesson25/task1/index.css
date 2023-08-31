@@ -44,7 +44,8 @@ body {
   display: flex;
   width: 100px;
   height: 64px;
-  margin-top: 33px;
+  margin-top: 32px;
+  /* margin-top: 33px; */
   margin-left: 140px;
   color: #fff;
   text-align: center;
@@ -84,7 +85,8 @@ body {
   position: absolute;
   width: 327.494px;
   height: 36px;
-  top: 275px;
+  /* top: 275px; */
+  top: 274px;
   left: 26px;
   font-family: Montserrat;
   font-size: 15px;
@@ -98,7 +100,8 @@ body {
   position: absolute;
   width: 380px;
   height: 300px;
-  top: 351px;
+  top: 350px;
+  /* top: 351px; */
 }
 .list-item-first-with-color {
   display: flex;
@@ -150,7 +153,8 @@ body {
 .button-third {
   width: 155px;
   height: 40px;
-  top: 690px;
+  top: 689px;
+  /* top: 690px; */
   left: 112px;
   position: absolute;
   border-radius: 20px;
@@ -189,7 +193,8 @@ body {
   height: 105px;
   flex-shrink: 0;
   background-color: #3a6ba5;
-  top: 130px;
+  /* top: 130px; */
+  top: 129px;
 }
 .block-icon {
   position: absolute;
